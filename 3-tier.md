@@ -305,8 +305,8 @@ Note: When you share an estimate, AWS Pricing Calculator automatically saves it 
 ___
 
 - ### **Summary**
-In this lab, you created a cost estimate using AWS Pricing Calculator. You added the components that are required for a three-tier web application and defined the sizing requirements for each service. You previewed the annual cost estimate and generated a link to share the estimate with others. 
+In this lab, I created a cost estimate using AWS Pricing Calculator. I added the components that are required for a three-tier web application (application, logic and database tier) and defined the sizing requirements for each service. I previewed the annual cost estimate and generated a link to share the estimate with others. 
 
-Now, you know how to evaluate the potential costs of architectures before you deploy them. This helps you control your AWS costs and avoid unpleasant surprises such as unexpected or high monthly bills.
+Now, ***"I know how to evaluate the potential costs of architectures before I deploy them"***. This helps me control my AWS costs and avoid unpleasant surprises such as unexpected or higher monthly bills.
 
-Well done!
+Well done ***_KeLLs***
