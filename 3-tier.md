@@ -97,9 +97,10 @@ For Average number of rule evaluations per request, enter
 ![screenshot](./screenshot/elb-config.png)
 ![screenshot](./screenshot/elbadded.png)
 
-**Choose Save and add service.**
+Choose Save and add service.
 
 ### Add the RDS instance to the estimate
+
 On the Select service page, in the Find Service search box, enter 
 ```
 RDS
