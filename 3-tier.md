@@ -301,7 +301,13 @@ To copy the link for your estimate, choose Copy public link.
 
 To share the estimate, send the link to others using a communication tool such as email.
 
-Note: When you share an estimate, AWS Pricing Calculator automatically saves it and generates a URL to access it. AWS Pricing Calculator saves your estimate for 3 years. 
+Note: When you share an estimate, AWS Pricing Calculator automatically saves it and generates a URL to access it. AWS Pricing Calculator saves your estimate for 1-3 years. 
+Public share link
+Copy and save or bookmark this link for your records. You must use the link below to retrieve your estimate. This link will expire after 1 year.
+
+```
+https://calculator.aws/#/estimate?id=91a80bf539c6194fe41249e1a60ea2db6962108c
+```
 ___
 
 - ### **Summary**
