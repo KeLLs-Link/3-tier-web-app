@@ -99,6 +99,116 @@ For Average number of rule evaluations per request, enter
 
 Choose Save and add service.
 
+### Add the EC2 instance to the estimate
+On the Select service page, in the Find Service search box, enter 
+``````
+EC2
+``````
+In the Amazon EC2 card, choose 
+``````
+Configure
+``````
+![images](./screenshot/ec2-config.png)
+In the Description section, configure the following options:
+For Description, enter 
+``````
+EC2
+``````
+For Select location type, choose 
+``````
+Region
+``````
+For Select region, choose 
+``````
+US West (Oregon)
+``````
+In the EC2 instance specifications section, for Operating system, choose 
+``````
+Linux
+``````
+In the Workload section, configure the following options:
+Choose 
+``````
+Daily spike traffic
+``````
+Keep the settings for Workload days 
+``````
+Monday - Friday
+``````
+For Baseline, enter 
+``````
+1
+``````
+For Peak, enter 
+``````
+2
+``````
+Note: These settings indicate that this workload requires one instance at normal times and two instances during peak usage.
+For Duration of peak (hours,minutes), keep the 
+``````
+default settings
+``````
+In the EC2 instances section, choose 
+``````
+t4g.small
+``````
+In the Pricing strategy section, choose 
+``````
+On-Demand
+``````
+In the Amazon Elastic Block Storage (EBS) section, configure the following storage options:
+For Storage for each EC2 instance, choose 
+``````
+General Purpose SSD (gp3)
+``````
+For General Purpose SSD (gp3) - IOPS, keep the
+``````
+default setting
+``````
+For General Purpose SSD (gp3) - Throughput, keep the 
+``````
+default setting
+``````
+For Storage amount, enter 
+``````
+30
+``````
+From the dropdown list, choose 
+``````
+GB
+``````
+In the Data transfer section, configure the following options:
+- For Inbound Data Transfer:
+From the first dropdown list, choose 
+``````
+Internet (free)
+``````
+Enter 
+``````
+50
+``````
+From the last dropdown list choose 
+``````
+GB per month
+``````
+- For Outbound Data Transfer:
+
+From the first dropdown list, choose 
+``````
+Internet (0.05 USD - 0.09 USD per GB)
+``````
+Enter 
+``````
+200
+``````
+From the last dropdown list, choose 
+``````
+GB per month
+``````
+![screenshot](./screenshot/ec2-estimate.png)
+Choose Save and add service.
+___
+
 ### Add the RDS instance to the estimate
 
 On the Select service page, in the Find Service search box, enter 
