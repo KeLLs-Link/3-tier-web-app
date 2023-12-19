@@ -178,7 +178,7 @@ From the dropdown list, choose
 GB
 ``````
 In the Data transfer section, configure the following options:
-- For Inbound Data Transfer:
+- **For Inbound Data Transfer:**\
 From the first dropdown list, choose 
 ``````
 Internet (free)
@@ -191,7 +191,7 @@ From the last dropdown list choose
 ``````
 GB per month
 ``````
-- For Outbound Data Transfer:
+- **For Outbound Data Transfer:**
 
 From the first dropdown list, choose 
 ``````
@@ -219,6 +219,8 @@ In the Amazon RDS for MySQL card, choose
 ``````
 Configure
 ``````
+![screenshot](./screenshot/rds-congig.png)
+
 In the Description section, configure the following options:
 For Description, enter 
 ``````
@@ -263,4 +265,5 @@ For Storage amount, enter
  choose GB
  ``````
 Skip the Backup Storage and Snapshot Export sections.\
+![screenshot](./screenshot/rds-estimate.png)
 **Choose Save and add service.**
