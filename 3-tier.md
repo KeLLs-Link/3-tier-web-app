@@ -93,8 +93,63 @@ For Average number of rule evaluations per request, enter
 20
 ``````
 
-***Note: Load balancer listener rules determine how the load balancer routes requests. For example, the default rule only routes HTTP traffic on port 80 to the EC2 instances (targets). 
+***Note: Load balancer listener rules determine how the load balancer routes requests. For example, the default rule only routes HTTP traffic on port 80 to the EC2 instances (targets).*** 
 ![screenshot](./screenshot/elb-config.png)
 ![screenshot](./screenshot/elbadded.png)
 
-Choose Save and add service.***
+**Choose Save and add service.**
+
+### Add the RDS instance to the estimate
+On the Select service page, in the Find Service search box, enter 
+```
+RDS
+```
+In the Amazon RDS for MySQL card, choose 
+``````
+Configure
+``````
+In the Description section, configure the following options:
+For Description, enter 
+``````
+Database
+``````
+For Select location type, choose 
+``````
+Region
+``````
+For Select region, choose 
+``````
+US West (Oregon)
+``````
+In the MySQL instance specifications section, configure the following options:
+For Quantity, enter 
+``````
+1
+``````
+From the dropdown list, choose 
+``````
+db.m6g.large
+``````
+
+For Deployment option, choose 
+``````
+Multi-AZ
+``````
+For Pricing model, keep the default setting.
+Skip the RDS Proxy section.
+In the Storage section, configure the following settings:
+
+For Storage for each RDS instance, choose 
+``````
+General Purpose SSD (gp2)
+``````
+For Storage amount, enter 
+``````
+100
+``````
+ From the dropdown list, 
+ ``````
+ choose GB
+ ``````
+Skip the Backup Storage and Snapshot Export sections.\
+**Choose Save and add service.**
