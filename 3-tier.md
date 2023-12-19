@@ -267,3 +267,38 @@ For Storage amount, enter
 Skip the Backup Storage and Snapshot Export sections.\
 ![screenshot](./screenshot/rds-estimate.png)
 **Choose Save and add service.**
+___
+
+### Task 3: **Review and download the estimate**
+In this task, you review the cost estimate that the calculator generated, and you download a copy of the estimate into a **comma-separated values (CSV)** file. A CSV file can be opened in desktop tools such as Excel.
+
+**- Choose View summary**\
+Review the overall costs that AWS Pricing Calculator generated for the services from the My Estimate page. AWS Pricing Calculator provides the total cost for the first 12 months. If needed, you can edit or delete the configuration of the services added by choosing the edit icon  next to each service name.
+![screenshot](./screenshot/estimate-summary.png)
+
+The preceding screenshot is an example of the cost estimate summary.
+
+- ***Note: The prices found in your estimate may vary as prices occasionally change.*** 
+
+Choose Export, and then choose CSV.
+![screenshot](./screenshot/csv-export.png)
+In the Export My Estimate to csv dialog box, choose OK.
+Use your local file explorer to save the file.
+___
+
+### **Task 4: Save and share the estimate**
+In this task, you share your estimate with others and save it. 
+
+Commonly, estimates need to be shared with others such as managers, project team members, or even customers.
+
+Choose Share.
+
+In the Save estimate dialog box, choose 
+``````
+Agree and continue.
+``````
+To copy the link for your estimate, choose Copy public link.
+
+To share the estimate, send the link to others using a communication tool such as email.
+
+Note: When you share an estimate, AWS Pricing Calculator automatically saves it and generates a URL to access it. AWS Pricing Calculator saves your estimate for 3 years. 
