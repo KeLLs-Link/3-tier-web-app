@@ -95,5 +95,6 @@ For Average number of rule evaluations per request, enter
 
 ***Note: Load balancer listener rules determine how the load balancer routes requests. For example, the default rule only routes HTTP traffic on port 80 to the EC2 instances (targets). 
 ![screenshot](./screenshot/elb-config.png)
+![screenshot](./screenshot/elbadded.png)
 
 Choose Save and add service.***
